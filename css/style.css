@@ -6,9 +6,6 @@
 h1, h2, h3, h4, h5, h6, p{ margin: 0; }
 ul, ol{ list-style: none; margin: 0; padding: 0;}
 a{ text-decoration: none; display: inline-block;}
-.title{
-    text-align: center;
-}
 h2{
         font-style: normal;
         font-weight: 700;
@@ -48,9 +45,6 @@ p{
 }
 .card img{
     height: 200px;
-}
-.latest_news{
-    
 }
 .overlay{
     padding: 100px 0;
