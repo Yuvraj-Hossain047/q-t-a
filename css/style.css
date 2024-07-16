@@ -30,6 +30,18 @@ p{
 .navbar{
     background: rgba(9, 90, 0, 0.726);
 }
+.navbar .nav-link{
+    background: rgba(9, 90, 0, 0.726);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-left: 15px;
+    transition: .3s ease-in-out;
+}
+.navbar .nav-link:hover{
+    background: #000;
+    border-color: red;
+    color: red;
+}
 #hero{
     background: url(../assets/hero_bg.jpg) no-repeat center;
     background-size: cover;
@@ -46,4 +58,10 @@ p{
 }
 .card{
     background: #724a4a91;
+}
+#footer{
+    background: rgba(9, 90, 0, 0.726);
+}
+#footer p{
+    color: #000;
 }
