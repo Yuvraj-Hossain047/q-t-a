@@ -1,0 +1,44 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box !important;
+        font-family: "Azeret Mono", monospace;
+    }
+h1, h2, h3, h4, h5, h6, p{ margin: 0; }
+ul, ol{ list-style: none; margin: 0; padding: 0;}
+a{ text-decoration: none; display: inline-block;}
+.title{
+    text-align: center;
+}
+.title h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 54px;
+        color: #151515;
+}
+.title p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #737373;
+}
+.navbar{
+    background: rgba(21, 214, 0, 0.233);
+}
+#hero{
+    background: url(../assets/hero_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.card img{
+    height: 200px;
+}
+.latest_news{
+    background: #ff6464;
+}
+.overlay{
+    padding: 100px 0;
+    background: rgba(0, 0, 0, 0.61);
+}
